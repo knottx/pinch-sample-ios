@@ -14,7 +14,6 @@
 		8BBA89F027E30C3400C26A79 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA89EF27E30C3400C26A79 /* InfoPanelView.swift */; };
 		8BBA89F227E3112F00C26A79 /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA89F127E3112F00C26A79 /* ControlImageView.swift */; };
 		8BBA89F427E319B800C26A79 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA89F327E319B800C26A79 /* Page.swift */; };
-		8BBA89F627E31A5D00C26A79 /* PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA89F527E31A5D00C26A79 /* PageData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +25,6 @@
 		8BBA89EF27E30C3400C26A79 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InfoPanelView.swift; path = Pinch/Views/InfoPanelView.swift; sourceTree = SOURCE_ROOT; };
 		8BBA89F127E3112F00C26A79 /* ControlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ControlImageView.swift; path = Pinch/Views/ControlImageView.swift; sourceTree = SOURCE_ROOT; };
 		8BBA89F327E319B800C26A79 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Page.swift; path = Pinch/Models/Page.swift; sourceTree = SOURCE_ROOT; };
-		8BBA89F527E31A5D00C26A79 /* PageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				8BBA89DE27E300D900C26A79 /* PinchApp.swift */,
-				8BBA89F727E31A6100C26A79 /* Data */,
 				8BBA89EE27E3027600C26A79 /* Models */,
 				8BBA89ED27E3026000C26A79 /* Views */,
 				8BBA89EC27E3025900C26A79 /* Screens */,
@@ -101,14 +98,6 @@
 				8BBA89F327E319B800C26A79 /* Page.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		8BBA89F727E31A6100C26A79 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				8BBA89F527E31A5D00C26A79 /* PageData.swift */,
-			);
-			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,7 +174,6 @@
 				8BBA89E127E300D900C26A79 /* ContentView.swift in Sources */,
 				8BBA89DF27E300D900C26A79 /* PinchApp.swift in Sources */,
 				8BBA89F027E30C3400C26A79 /* InfoPanelView.swift in Sources */,
-				8BBA89F627E31A5D00C26A79 /* PageData.swift in Sources */,
 				8BBA89F427E319B800C26A79 /* Page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

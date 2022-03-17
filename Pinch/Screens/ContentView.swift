@@ -14,7 +14,8 @@ struct ContentView: View {
     @State private var imageOffset: CGSize = .zero
     @State private var isDrawerOpen: Bool = true
     
-    let pages: [Page] = pagesData
+    let pages: [Page] = [.init(id: 1, imageName: "magazine-front-cover"),
+                         .init(id: 2, imageName: "magazine-back-cover")]
     @State private var pageIndex: Int = 1
     
     // MARK: - Function
